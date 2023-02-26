@@ -68,7 +68,7 @@ const registerController = async (req, res) => {
     );
 
     res.status(200).send({
-        message: "Login successful",
+        message: "Register successful",
         token,
     });
 };
